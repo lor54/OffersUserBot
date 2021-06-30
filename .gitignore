@@ -1,0 +1,26 @@
+# emacs auto-saving files
+\#*#
+.#*#
+vendor
+*bak
+token.php
+*~uploading*
+enc.tar.xz
+a
+web_data.php
+web_API.log
+db_connect.php
+
+# Madeline files and others
+.env
+sessions
+docs_md
+session.mad
+*.madeline
+*.madeline.*
+*.phar
+madeline*.phar.version
+madeline.php
+.vscode/*
+.vscode
+config.json
