@@ -50,7 +50,6 @@ class OffersReceiver extends EventHandler
 
 $settings = new Settings;
 $settings->getLogger()->setLevel(Logger::LEVEL_ULTRA_VERBOSE);
-$settings->
 
 $MadelineProto = new API('session.madeline', $settings);
 $MadelineProto->startAndLoop(OffersReceiver::class);
